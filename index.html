@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>touati karim portfolio</title>
+    <meta name="description" content="touati karim, full stack et developper web freelaces">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https : //fonts.googleapis.com/css2?family= Mochiy+Pop+P+One & family = Poppins:ital,wght@0,100;0,300;0,500;0,700;1,100;1,300;1,500;1,700 & family= Roboto:ital, wght@0,100;0,300;0,400;1,100;1,300 & display=swap"
+          rel="feuille de style">
+    <script src="./js/app.js" defer></script>
+</head>
+<body>
+<!--header-->
+    <header id="hero" class="header">
+         <div class="container d-flex ">
+             <div class="logo">
+                 touati Karim
+             </div>
+           <nav class="navigation">
+             <ul class="ul__list ">
+                 <li>
+                    <a href="#acceil">Acceil</a>
+                 </li>
+                 <li>
+                    <a href="#about">About</a>
+                 </li>
+                 <li>
+                    <a href="#services">Services</a>
+                 </li>
+                 <li>
+                    <a href="#skills">Competences</a>
+                 </li>
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#blog">Blog</a>
+                </li>
+                <li>
+                    <a href="#contact">Contcat</a>
+                </li>
+             </ul>
+           </nav>
+           <div class="reseaux__social">
+             <ul class="social__list">
+                <li>
+                   <a href="https://www.facebook.com" target="blanc">
+                      <svg class="icon facebook" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                         <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+                      </svg>
+                   </a>
+                </li>
+                <li>
+                   <a href="https://www.github.com" target="blanc">
+                      <svg class="icon github" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                         <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                      </svg>
+                   </a>
+                </li>
+                <li>
+                   <a href="https://www.interest.com" target="blanc">
+                      <svg class="icon linkedin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                         <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                      </svg>
+                   </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com" target="blanc">
+                      <svg class="icon instagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                          <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                      </svg>
+                    </a>
+                </li>
+             </ul>
+            </div>
+            <button class="acceil__btn" type="submit"><span class="acceil__span"></span></button>
+        </div>
+    </header>
+<!--end header-->
+
+<!--acceil-->
+    <section id="acceil" class="acceil">
+         <div class="container">
+             <div class="gride">
+                  <div class="acceil__info left">
+                       <span>Develloper Web Freelace</span>
+                       <h1>Hello, Im Touati Karim De Tunisie</h1>
+                       <p>
+                           Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                           Eius voluptate, qui reprehenderit itaque magnam quibusdam,
+                       </p>
+                  </div>
+                  <div class="acceil__info right">
+                       <img src="./img/avatar.png" alt="touati karim full stack">
+                  </div>
+             </div>
+         </div>
+    </section>
+<!--end acceil-->
+
+<!--about-->
+    <section id="about" class="about">
+         <div class="container">
+             <div class="gride">
+                 
+                     <img  src="./img/logo.png" alt="touai karim freelacer">
+                 
+                 <div class="about__me">
+                     <h2 class="title">A Propos</h2>
+                     <h4 class="about__info">Qui sui je ?</h4>
+                     <p class="about__desc1">
+                         Lorem ipsum dolor sit, amet consectetur <strong>adipisicing elit. Modi adipisci,</strong>
+                         laboriosam nostrum hic reiciendis ullam nihil dolor libero, natus sapiente,
+                         possimus nemo ipsum quibusdam quidem ut! Vero vel porro provident?
+                         Eius voluptate, qui reprehenderit itaque magnam quibusdam, 
+                     </p>
+                     <p class="about__desc2">
+                        rem dolorem porro voluptatem optio reiciendis id, voluptates
+                        corporis! Magni neque obcaecati necessitatibus dolores culpa non,
+                        ea, illum nihil natus quibusdam, perferendis nemo!
+                     </p>
+                    <ul>
+                        <li>list</li>
+                        <li>list</li>
+                        <li>list</li>
+                        <li>list</li>
+                    </ul>
+                 </div>
+             </div>
+         </div>
+    </section>
+<!--end about-->
+
+<!--services-->
+    <section id="services" class="services">
+         <div class="container">
+             <div class="service__title">
+                 <h2 class="title">mes services</h2>
+                 <p>
+                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                     Doloremque aspernatur unde earum eligendi in necessitatibus recusanda
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolor dolorum explicabo delectus neque accusantium,
+                 </p>
+             </div>
+             <div class="gride">
+                 <div class="gride__service1">
+                   <div class="service-item">
+                      <div class="icons">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                            <path
+                                d="M248 8C111.1 8 0 119.1 0 256s111.1 248 248 248 248-111.1 248-248S384.9 8 248 8zm100.7 364.9c-4.2 0-6.8-1.3-10.7-3.6-62.4-37.6-135-39.2-206.7-24.5-3.9 1-9 2.6-11.9 2.6-9.7 0-15.8-7.7-15.8-15.8 0-10.3 6.1-15.2 13.6-16.8 81.9-18.1 165.6-16.5 237 26.2 6.1 3.9 9.7 7.4 9.7 16.5s-7.1 15.4-15.2 15.4zm26.9-65.6c-5.2 0-8.7-2.3-12.3-4.2-62.5-37-155.7-51.9-238.6-29.4-4.8 1.3-7.4 2.6-11.9 2.6-10.7 0-19.4-8.7-19.4-19.4s5.2-17.8 15.5-20.7c27.8-7.8 56.2-13.6 97.8-13.6 64.9 0 127.6 16.1 177 45.5 8.1 4.8 11.3 11 11.3 19.7-.1 10.8-8.5 19.5-19.4 19.5zm31-76.2c-5.2 0-8.4-1.3-12.9-3.9-71.2-42.5-198.5-52.7-280.9-29.7-3.6 1-8.1 2.6-12.9 2.6-13.2 0-23.3-10.3-23.3-23.6 0-13.6 8.4-21.3 17.4-23.9 35.2-10.3 74.6-15.2 117.5-15.2 73 0 149.5 15.2 205.4 47.8 7.8 4.5 12.9 10.7 12.9 22.6 0 13.6-11 23.3-23.2 23.3z" />
+                        </svg>
+                      </div>
+                      <div class="service__text">
+                        <h4>web design</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Dolor dolorum explicabo delectus neque accusantium,
+                        </p>
+                      </div>
+                   </div>
+                  <div class="service-item">
+                    <div class="icons">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                            <path d="M290.7 311L95 269.7 86.8 309l195.7 41zm51-87L188.2 95.7l-25.5 30.8 153.5 128.3zm-31.2 39.7L129.2 179l-16.7 36.5L293.7 300zM262 32l-32 24 119.3 160.3 32-24zm20.5 328h-200v39.7h200zm39.7 80H42.7V320h-40v160h359.5V320h-40z" />
+                        </svg>
+                    </div>
+                    <div class="service__text">
+                        <h4>web design</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Dolor dolorum explicabo delectus neque accusantium,
+                        </p>
+                    </div>
+                  </div>
+                  <div class="service-item">
+                    <div class="icons">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                            <path d="M570.9 372.3c-11.3 14.2-38.8 24.3-38.8 24.3L327 470.2v-54.3l150.9-53.8c17.1-6.1 19.8-14.8 5.8-19.4-13.9-4.6-39.1-3.3-56.2 2.9L327 381.1v-56.4c23.2-7.8 47.1-13.6 75.7-16.8 40.9-4.5 90.9.6 130.2 15.5 44.2 14 49.2 34.7 38 48.9zm-224.4-92.5v-139c0-16.3-3-31.3-18.3-35.6-11.7-3.8-19 7.1-19 23.4v347.9l-93.8-29.8V32c39.9 7.4 98 24.9 129.2 35.4C424.1 94.7 451 128.7 451 205.2c0 74.5-46 102.8-104.5 74.6zM43.2 410.2c-45.4-12.8-53-39.5-32.3-54.8 19.1-14.2 51.7-24.9 51.7-24.9l134.5-47.8v54.5l-96.8 34.6c-17.1 6.1-19.7 14.8-5.8 19.4 13.9 4.6 39.1 3.3 56.2-2.9l46.4-16.9v48.8c-51.6 9.3-101.4 7.3-153.9-10z" />
+                        </svg>
+                    </div>
+                    <div class="service__text">
+                        <h4>web design</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Dolor dolorum explicabo delectus neque accusantium,
+                        </p>
+                    </div>
+                  </div>
+                  <div class="service-item">
+                    <div class="icons">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                            <path d="M111.4 295.9c-3.5 19.2-17.4 108.7-21.5 134-.3 1.8-1 2.5-3 2.5H12.3c-7.6 0-13.1-6.6-12.1-13.9L58.8 46.6c1.5-9.6 10.1-16.9 20-16.9 152.3 0 165.1-3.7 204 11.4 60.1 23.3 65.6 79.5 44 140.3-21.5 62.6-72.5 89.5-140.1 90.3-43.4.7-69.5-7-75.3 24.2zM357.1 152c-1.8-1.3-2.5-1.8-3 1.3-2 11.4-5.1 22.5-8.8 33.6-39.9 113.8-150.5 103.9-204.5 103.9-6.1 0-10.1 3.3-10.9 9.4-22.6 140.4-27.1 169.7-27.1 169.7-1 7.1 3.5 12.9 10.6 12.9h63.5c8.6 0 15.7-6.3 17.4-14.9.7-5.4-1.1 6.1 14.4-91.3 4.6-22 14.3-19.7 29.3-19.7 71 0 126.4-28.8 142.9-112.3 6.5-34.8 4.6-71.4-23.8-92.6z" />
+                        </svg>
+                    </div>
+                    <div class="service__text">
+                        <h4>web design</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Dolor dolorum explicabo delectus neque accusantium,
+                        </p>
+                    </div>
+                   </div>
+                 </div>
+                 <div class="gride__service2">
+                  <div class="service-item">
+                    <div class="icons">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zm-141.651-35.33c4.937-32.999-20.191-50.739-54.55-62.573l11.146-44.702-27.213-6.781-10.851 43.524c-7.154-1.783-14.502-3.464-21.803-5.13l10.929-43.81-27.198-6.781-11.153 44.686c-5.922-1.349-11.735-2.682-17.377-4.084l.031-.14-37.53-9.37-7.239 29.062s20.191 4.627 19.765 4.913c11.022 2.751 13.014 10.044 12.68 15.825l-12.696 50.925c.76.194 1.744.473 2.829.907-.907-.225-1.876-.473-2.876-.713l-17.796 71.338c-1.349 3.348-4.767 8.37-12.471 6.464.271.395-19.78-4.937-19.78-4.937l-13.51 31.147 35.414 8.827c6.588 1.651 13.045 3.379 19.4 5.006l-11.262 45.213 27.182 6.781 11.153-44.733a1038.209 1038.209 0 0 0 21.687 5.627l-11.115 44.523 27.213 6.781 11.262-45.128c46.404 8.781 81.299 5.239 95.986-36.727 11.836-33.79-.589-53.281-25.004-65.991 17.78-4.098 31.174-15.792 34.747-39.949zm-62.177 87.179c-8.41 33.79-65.308 15.523-83.755 10.943l14.944-59.899c18.446 4.603 77.6 13.717 68.811 48.956zm8.417-87.667c-7.673 30.736-55.031 15.12-70.393 11.292l13.548-54.327c15.363 3.828 64.836 10.973 56.845 43.035z" />
+                        </svg>
+                    </div>
+                    <div class="service__text">
+                        <h4>web design</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Dolor dolorum explicabo delectus neque accusantium,
+                        </p>
+                    </div>
+                  </div>
+                  <div class="service-item">
+                    <div class="icons">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                            <path d="M482.9 410.3c0 6.8-4.6 11.7-11.2 11.7-6.8 0-11.2-5.2-11.2-11.7 0-6.5 4.4-11.7 11.2-11.7 6.6 0 11.2 5.2 11.2 11.7zm-310.8-11.7c-7.1 0-11.2 5.2-11.2 11.7 0 6.5 4.1 11.7 11.2 11.7 6.5 0 10.9-4.9 10.9-11.7-.1-6.5-4.4-11.7-10.9-11.7zm117.5-.3c-5.4 0-8.7 3.5-9.5 8.7h19.1c-.9-5.7-4.4-8.7-9.6-8.7zm107.8.3c-6.8 0-10.9 5.2-10.9 11.7 0 6.5 4.1 11.7 10.9 11.7 6.8 0 11.2-4.9 11.2-11.7 0-6.5-4.4-11.7-11.2-11.7zm105.9 26.1c0 .3.3.5.3 1.1 0 .3-.3.5-.3 1.1-.3.3-.3.5-.5.8-.3.3-.5.5-1.1.5-.3.3-.5.3-1.1.3-.3 0-.5 0-1.1-.3-.3 0-.5-.3-.8-.5-.3-.3-.5-.5-.5-.8-.3-.5-.3-.8-.3-1.1 0-.5 0-.8.3-1.1 0-.5.3-.8.5-1.1.3-.3.5-.3.8-.5.5-.3.8-.3 1.1-.3.5 0 .8 0 1.1.3.5.3.8.3 1.1.5s.2.6.5 1.1zm-2.2 1.4c.5 0 .5-.3.8-.3.3-.3.3-.5.3-.8 0-.3 0-.5-.3-.8-.3 0-.5-.3-1.1-.3h-1.6v3.5h.8V426h.3l1.1 1.4h.8l-1.1-1.3zM576 81v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V81c0-26.5 21.5-48 48-48h480c26.5 0 48 21.5 48 48zM64 220.6c0 76.5 62.1 138.5 138.5 138.5 27.2 0 53.9-8.2 76.5-23.1-72.9-59.3-72.4-171.2 0-230.5-22.6-15-49.3-23.1-76.5-23.1-76.4-.1-138.5 62-138.5 138.2zm224 108.8c70.5-55 70.2-162.2 0-217.5-70.2 55.3-70.5 162.6 0 217.5zm-142.3 76.3c0-8.7-5.7-14.4-14.7-14.7-4.6 0-9.5 1.4-12.8 6.5-2.4-4.1-6.5-6.5-12.2-6.5-3.8 0-7.6 1.4-10.6 5.4V392h-8.2v36.7h8.2c0-18.9-2.5-30.2 9-30.2 10.2 0 8.2 10.2 8.2 30.2h7.9c0-18.3-2.5-30.2 9-30.2 10.2 0 8.2 10 8.2 30.2h8.2v-23zm44.9-13.7h-7.9v4.4c-2.7-3.3-6.5-5.4-11.7-5.4-10.3 0-18.2 8.2-18.2 19.3 0 11.2 7.9 19.3 18.2 19.3 5.2 0 9-1.9 11.7-5.4v4.6h7.9V392zm40.5 25.6c0-15-22.9-8.2-22.9-15.2 0-5.7 11.9-4.8 18.5-1.1l3.3-6.5c-9.4-6.1-30.2-6-30.2 8.2 0 14.3 22.9 8.3 22.9 15 0 6.3-13.5 5.8-20.7.8l-3.5 6.3c11.2 7.6 32.6 6 32.6-7.5zm35.4 9.3l-2.2-6.8c-3.8 2.1-12.2 4.4-12.2-4.1v-16.6h13.1V392h-13.1v-11.2h-8.2V392h-7.6v7.3h7.6V416c0 17.6 17.3 14.4 22.6 10.9zm13.3-13.4h27.5c0-16.2-7.4-22.6-17.4-22.6-10.6 0-18.2 7.9-18.2 19.3 0 20.5 22.6 23.9 33.8 14.2l-3.8-6c-7.8 6.4-19.6 5.8-21.9-4.9zm59.1-21.5c-4.6-2-11.6-1.8-15.2 4.4V392h-8.2v36.7h8.2V408c0-11.6 9.5-10.1 12.8-8.4l2.4-7.6zm10.6 18.3c0-11.4 11.6-15.1 20.7-8.4l3.8-6.5c-11.6-9.1-32.7-4.1-32.7 15 0 19.8 22.4 23.8 32.7 15l-3.8-6.5c-9.2 6.5-20.7 2.6-20.7-8.6zm66.7-18.3H408v4.4c-8.3-11-29.9-4.8-29.9 13.9 0 19.2 22.4 24.7 29.9 13.9v4.6h8.2V392zm33.7 0c-2.4-1.2-11-2.9-15.2 4.4V392h-7.9v36.7h7.9V408c0-11 9-10.3 12.8-8.4l2.4-7.6zm40.3-14.9h-7.9v19.3c-8.2-10.9-29.9-5.1-29.9 13.9 0 19.4 22.5 24.6 29.9 13.9v4.6h7.9v-51.7zm7.6-75.1v4.6h.8V302h1.9v-.8h-4.6v.8h1.9zm6.6 123.8c0-.5 0-1.1-.3-1.6-.3-.3-.5-.8-.8-1.1-.3-.3-.8-.5-1.1-.8-.5 0-1.1-.3-1.6-.3-.3 0-.8.3-1.4.3-.5.3-.8.5-1.1.8-.5.3-.8.8-.8 1.1-.3.5-.3 1.1-.3 1.6 0 .3 0 .8.3 1.4 0 .3.3.8.8 1.1.3.3.5.5 1.1.8.5.3 1.1.3 1.4.3.5 0 1.1 0 1.6-.3.3-.3.8-.5 1.1-.8.3-.3.5-.8.8-1.1.3-.6.3-1.1.3-1.4zm3.2-124.7h-1.4l-1.6 3.5-1.6-3.5h-1.4v5.4h.8v-4.1l1.6 3.5h1.1l1.4-3.5v4.1h1.1v-5.4zm4.4-80.5c0-76.2-62.1-138.3-138.5-138.3-27.2 0-53.9 8.2-76.5 23.1 72.1 59.3 73.2 171.5 0 230.5 22.6 15 49.5 23.1 76.5 23.1 76.4.1 138.5-61.9 138.5-138.4z" />
+                        </svg>
+                    </div>
+                    <div class="service__text">
+                        <h4>web design</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Dolor dolorum explicabo delectus neque accusantium,
+                        </p>
+                    </div>
+                   </div>
+                   <div class="service-item">
+                    <div class="icons">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                            <path d="M431.5 244.3V212c41.2 0 38.5.2 38.5.2 7.3 1.3 13.3 7.3 13.3 16 0 8.8-6 14.5-13.3 15.8-1.2.4-3.3.3-38.5.3zm42.8 20.2c-2.8-.7-3.3-.5-42.8-.5v35c39.6 0 40 .2 42.8-.5 7.5-1.5 13.5-8 13.5-17 0-8.7-6-15.5-13.5-17zM576 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h480c26.5 0 48 21.5 48 48zM182 192.3h-57c0 67.1 10.7 109.7-35.8 109.7-19.5 0-38.8-5.7-57.2-14.8v28c30 8.3 68 8.3 68 8.3 97.9 0 82-47.7 82-131.2zm178.5 4.5c-63.4-16-165-14.9-165 59.3 0 77.1 108.2 73.6 165 59.2V287C312.9 311.7 253 309 253 256s59.8-55.6 107.5-31.2v-28zM544 286.5c0-18.5-16.5-30.5-38-32v-.8c19.5-2.7 30.3-15.5 30.3-30.2 0-19-15.7-30-37-31 0 0 6.3-.3-120.3-.3v127.5h122.7c24.3.1 42.3-12.9 42.3-33.2z" />
+                        </svg>
+                    </div>
+                    <div class="service__text">
+                        <h4>web design</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Dolor dolorum explicabo delectus neque accusantium,
+                        </p>
+                    </div>
+                  </div>
+                  <div class="service-item">
+                    <div class="icons">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                            <path d="M116.9 158.5c-7.5 8.9-19.5 15.9-31.5 14.9-1.5-12 4.4-24.8 11.3-32.6 7.5-9.1 20.6-15.6 31.3-16.1 1.2 12.4-3.7 24.7-11.1 33.8m10.9 17.2c-17.4-1-32.3 9.9-40.5 9.9-8.4 0-21-9.4-34.8-9.1-17.9.3-34.5 10.4-43.6 26.5-18.8 32.3-4.9 80 13.3 106.3 8.9 13 19.5 27.3 33.5 26.8 13.3-.5 18.5-8.6 34.5-8.6 16.1 0 20.8 8.6 34.8 8.4 14.5-.3 23.6-13 32.5-26 10.1-14.8 14.3-29.1 14.5-29.9-.3-.3-28-10.9-28.3-42.9-.3-26.8 21.9-39.5 22.9-40.3-12.5-18.6-32-20.6-38.8-21.1m100.4-36.2v194.9h30.3v-66.6h41.9c38.3 0 65.1-26.3 65.1-64.3s-26.4-64-64.1-64h-73.2zm30.3 25.5h34.9c26.3 0 41.3 14 41.3 38.6s-15 38.8-41.4 38.8h-34.8V165zm162.2 170.9c19 0 36.6-9.6 44.6-24.9h.6v23.4h28v-97c0-28.1-22.5-46.3-57.1-46.3-32.1 0-55.9 18.4-56.8 43.6h27.3c2.3-12 13.4-19.9 28.6-19.9 18.5 0 28.9 8.6 28.9 24.5v10.8l-37.8 2.3c-35.1 2.1-54.1 16.5-54.1 41.5.1 25.2 19.7 42 47.8 42zm8.2-23.1c-16.1 0-26.4-7.8-26.4-19.6 0-12.3 9.9-19.4 28.8-20.5l33.6-2.1v11c0 18.2-15.5 31.2-36 31.2zm102.5 74.6c29.5 0 43.4-11.3 55.5-45.4L640 193h-30.8l-35.6 115.1h-.6L537.4 193h-31.6L557 334.9l-2.8 8.6c-4.6 14.6-12.1 20.3-25.5 20.3-2.4 0-7-.3-8.9-.5v23.4c1.8.4 9.3.7 11.6.7z" />
+                        </svg>
+                    </div>
+                    <div class="service__text">
+                        <h4>web design</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Dolor dolorum explicabo delectus neque accusantium,
+                        </p>
+                    </div>
+                  </div>
+                 </div>
+             </div>
+         </div>
+    </section>
+<!--end services-->
+
+<!--skills-->
+    <section id="skills" class="skills">
+        <div class="container">
+          <div class="skills__title">
+              <h2 class="title">mes competences</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolor dolorum explicabo delectus neque accusantium,
+              </p>
+          </div>
+          <div class="skills__gride">
+              <div class="gride__left">
+                  <h3>domaine de competence</h3>
+                  <ul class="ul__skills">
+                      <li>
+                          <h4>competence</h4>
+                          <p>description de la competence</p>
+                      </li>
+                    <li>
+                        <h4>competence</h4>
+                        <p>description de la competence</p>
+                    </li>
+                    <li>
+                        <h4>competence</h4>
+                        <p>description de la competence</p>
+                    </li>
+                    <li>
+                        <h4>competence</h4>
+                        <p>description de la competence</p>
+                    </li>
+                    <li>
+                        <h4>competence</h4>
+                        <p>description de la competence</p>
+                    </li>
+                    <li>
+                        <h4>competence</h4>
+                        <p>description de la competence</p>
+                    </li>
+                  </ul>
+              </div>
+              <div class="gride__right">
+                  <h3>competence en devellopenement</h3>
+                 <div class="progress__bar">
+                    <div class="bar" data-width="95">HTML</div>
+                 </div>
+                <div class="progress__bar">
+                    <div class="bar" data-width="95">css</div>
+                </div>
+                <div class="progress__bar">
+                    <div class="bar" data-width="95">jacascript</div>
+                </div>
+                <div class="progress__bar">
+                    <div class="bar" data-width="60">php</div>
+                </div>
+                <div class="progress__bar">
+                    <div class="bar" data-width="75">node</div>
+                </div>
+                <div class="progress__bar">
+                    <div class="bar" data-width="70">react</div>
+                </div>
+                <h3>competence en design graphique</h3>
+                <div class="progress__bar">
+                    <div class="bar" data-width="80">photoshop</div>
+                </div>
+                <div class="progress__bar">
+                    <div class="bar" data-width="65">illustartor</div>
+                </div>
+                <div class="progress__bar">
+                    <div class="bar" data-width="50">figma</div>
+                </div>
+                <div class="progress__bar">
+                    <div class="bar" data-width="70">after effect</div>
+                </div>
+              </div>
+          </div>
+        </div>
+    </section>
+<!--end skills-->
+
+<!--portfolio-->
+    <section id="portfolio" class="portfolio">
+        <div clas="container">
+          <div class="portofolio__header">
+              <h2 class="title">portfolio</h2>
+              <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolor dolorum explicabo delectus neque accusantium,
+              </p>
+          </div>
+            <ul class="ul__portfolio">
+                <li>
+                    <a href="#" data_filter="all">All</a>
+                </li>
+                <li>
+                    <a href="#" data_filter="devellopement">devellopement</a>
+                </li>
+                <li>
+                    <a href="#" data_filter="graphic">graphic</a>
+                </li>
+                <li>
+                    <a href="#" data_filter="app">application</a>
+                </li>
+            </ul>
+            <div class="porfolio__card">
+                <div class="card" data_category="devellopement">
+                     <img class="card__img" src="https://picsum.photos/200/150?random=1" alt="projet image">
+                   <div class="card__info">
+                       <h3 class="card__title">titlre du projet</h3>
+                       <p class="card__text">developpement web</p>
+                   </div>
+                   <div class="card__overlay">
+                       <a href="#" class="card_link" data-id="modal-1">+</a>
+                   </div>
+                </div>
+                <div class="modal" id="modal-1">
+                    <button class="modal_close">x</button>
+                    <div class="container">
+                        <div class="content">
+                            <div class="grid_item">
+                                <img src="https://picsum.photos/1000/800?random=7" alt="photo de la ville" >
+                                <img src="https://picsum.photos/1000/800?random=8" alt="photo de la ville">
+                            </div>
+                            <div class="grid_item">
+                                <h3 class="modal_title">titre de la modal</h3>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path d="M96 32C96 14.33 110.3 0 128 0C145.7 0 160 14.33 160 32V64H288V32C288 14.33 302.3 0 320 0C337.7 0 352 14.33 352 32V64H400C426.5 64 448 85.49 448 112V160H0V112C0 85.49 21.49 64 48 64H96V32zM448 464C448 490.5 426.5 512 400 512H48C21.49 512 0 490.5 0 464V192H448V464z" />
+                                </svg>
+                                <i>annee 2022</i>
+                                <p class="modal_text">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni reprehenderit, cupiditate perspiciatis eaque quasi amet quia quo placeat! Quibusdam similique nulla suscipit ad, consequuntur animi ea nemo illo eius non!
+                                Recusandae voluptates cumque illo officiis, nostrum adipisci molestias modi quae vitae consectetur animi sint praesentium temporibus, repudiandae voluptatibus. Earum dolor architecto porro. Labore voluptatibus tempore laudantium illo! Mollitia, alias nihil?
+                                Quae molestiae ipsa aspernatur praesentium aliquam quibusdam, iste minima voluptas odio quisquam eveniet delectus necessitatibus, porro non facilis rem! Repellat est aliquam architecto recusandae deserunt totam magnam quaerat, quam nisi.
+                                Totam ab repellat impedit. Qui cupiditate reprehenderit voluptate, maxime illum distinctio repellat nisi omnis vitae, sit obcaecati laborum? Adipisci enim exercitationem accusamus optio quos iure aspernatur repellat inventore odio animi.
+                                Fugit architecto nihil iste debitis in, ratione aperiam blanditiis assumenda autem distinctio neque provident quae perferendis. Modi necessitatibus nobis amet error excepturi doloremque, voluptatem atque, maiores magni in blanditiis fugit.
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data_category="graphic">
+                    <img class="card__img" src="https://picsum.photos/200/150?random=2" alt="projet image">
+                    <div class="card__info">
+                        <h3 class="card__title">titlre du projet</h3>
+                        <p class="card__text">graphic design</p>
+                    </div>
+                    <div class="card__overlay">
+                        <a href="#" class="card_link" data-id="modal-2">+</a>
+                    </div>
+                </div>
+                <div class="modal" id="modal-2">
+                    <button class="modal_close">x</button>
+                    <div class="container">
+                        <div class="content">
+                            <div class="grid_item">
+                                <img src="https://picsum.photos/1000/800?random=7" alt="photo de la ville">
+                                <img src="https://picsum.photos/1000/800?random=8" alt="photo de la ville">
+                            </div>
+                            <div class="grid_item">
+                                <h3 class="modal_title">titre de la modal</h3>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path
+                                        d="M96 32C96 14.33 110.3 0 128 0C145.7 0 160 14.33 160 32V64H288V32C288 14.33 302.3 0 320 0C337.7 0 352 14.33 352 32V64H400C426.5 64 448 85.49 448 112V160H0V112C0 85.49 21.49 64 48 64H96V32zM448 464C448 490.5 426.5 512 400 512H48C21.49 512 0 490.5 0 464V192H448V464z" />
+                                </svg>
+                                <i>annee 2022</i>
+                                <p class="modal_text">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni reprehenderit, cupiditate
+                                    perspiciatis eaque quasi amet quia quo placeat! Quibusdam similique nulla suscipit ad, consequuntur
+                                    animi ea nemo illo eius non!
+                                    Recusandae voluptates cumque illo officiis, nostrum adipisci molestias modi quae vitae consectetur
+                                    animi sint praesentium temporibus, repudiandae voluptatibus. Earum dolor architecto porro. Labore
+                                    voluptatibus tempore laudantium illo! Mollitia, alias nihil?
+                                    Quae molestiae ipsa aspernatur praesentium aliquam quibusdam, iste minima voluptas odio quisquam
+                                    eveniet delectus necessitatibus, porro non facilis rem! Repellat est aliquam architecto recusandae
+                                    deserunt totam magnam quaerat, quam nisi.
+                                    Totam ab repellat impedit. Qui cupiditate reprehenderit voluptate, maxime illum distinctio repellat
+                                    nisi omnis vitae, sit obcaecati laborum? Adipisci enim exercitationem accusamus optio quos iure
+                                    aspernatur repellat inventore odio animi.
+                                    Fugit architecto nihil iste debitis in, ratione aperiam blanditiis assumenda autem distinctio neque
+                                    provident quae perferendis. Modi necessitatibus nobis amet error excepturi doloremque, voluptatem
+                                    atque, maiores magni in blanditiis fugit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data_category="app">
+                    <img class="card__img" src="https://picsum.photos/200/150?random=3" alt="projet image">
+                    <div class="card__info">
+                        <h3 class="card__title">titlre du projet</h3>
+                        <p class="card__text">programming</p>
+                    </div>
+                    <div class="card__overlay">
+                        <a href="#" class="card_link" data-id="modal-3">+</a>
+                    </div>
+                </div>
+                <div class="modal" id="modal-3">
+                    <button class="modal_close">x</button>
+                    <div class="container">
+                        <div class="content">
+                            <div class="grid_item">
+                                <img src="https://picsum.photos/1000/800?random=7" alt="photo de la ville">
+                                <img src="https://picsum.photos/1000/800?random=8" alt="photo de la ville">
+                            </div>
+                            <div class="grid_item">
+                                <h3 class="modal_title">titre de la modal</h3>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path
+                                        d="M96 32C96 14.33 110.3 0 128 0C145.7 0 160 14.33 160 32V64H288V32C288 14.33 302.3 0 320 0C337.7 0 352 14.33 352 32V64H400C426.5 64 448 85.49 448 112V160H0V112C0 85.49 21.49 64 48 64H96V32zM448 464C448 490.5 426.5 512 400 512H48C21.49 512 0 490.5 0 464V192H448V464z" />
+                                </svg>
+                                <i>annee 2022</i>
+                                <p class="modal_text">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni reprehenderit, cupiditate
+                                    perspiciatis eaque quasi amet quia quo placeat! Quibusdam similique nulla suscipit ad, consequuntur
+                                    animi ea nemo illo eius non!
+                                    Recusandae voluptates cumque illo officiis, nostrum adipisci molestias modi quae vitae consectetur
+                                    animi sint praesentium temporibus, repudiandae voluptatibus. Earum dolor architecto porro. Labore
+                                    voluptatibus tempore laudantium illo! Mollitia, alias nihil?
+                                    Quae molestiae ipsa aspernatur praesentium aliquam quibusdam, iste minima voluptas odio quisquam
+                                    eveniet delectus necessitatibus, porro non facilis rem! Repellat est aliquam architecto recusandae
+                                    deserunt totam magnam quaerat, quam nisi.
+                                    Totam ab repellat impedit. Qui cupiditate reprehenderit voluptate, maxime illum distinctio repellat
+                                    nisi omnis vitae, sit obcaecati laborum? Adipisci enim exercitationem accusamus optio quos iure
+                                    aspernatur repellat inventore odio animi.
+                                    Fugit architecto nihil iste debitis in, ratione aperiam blanditiis assumenda autem distinctio neque
+                                    provident quae perferendis. Modi necessitatibus nobis amet error excepturi doloremque, voluptatem
+                                    atque, maiores magni in blanditiis fugit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data_category="devellopement">
+                    <img class="card__img" src="https://picsum.photos/200/150?random=4" alt="projet image">
+                    <div class="card__info">
+                        <h3 class="card__title">titlre du projet</h3>
+                        <p class="card__text">developpement web</p>
+                    </div>
+                    <div class="card__overlay">
+                        <a href="#" class="card_link" data-id="modal-4">+</a>
+                    </div>
+                </div>
+                <div class="modal" id="modal-4">
+                    <button class="modal_close">x</button>
+                    <div class="container">
+                        <div class="content">
+                            <div class="grid_item">
+                                <img src="https://picsum.photos/1000/800?random=7" alt="photo de la ville">
+                                <img src="https://picsum.photos/1000/800?random=8" alt="photo de la ville">
+                            </div>
+                            <div class="grid_item">
+                                <h3 class="modal_title">titre de la modal</h3>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path
+                                        d="M96 32C96 14.33 110.3 0 128 0C145.7 0 160 14.33 160 32V64H288V32C288 14.33 302.3 0 320 0C337.7 0 352 14.33 352 32V64H400C426.5 64 448 85.49 448 112V160H0V112C0 85.49 21.49 64 48 64H96V32zM448 464C448 490.5 426.5 512 400 512H48C21.49 512 0 490.5 0 464V192H448V464z" />
+                                </svg>
+                                <i>annee 2022</i>
+                                <p class="modal_text">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni reprehenderit, cupiditate
+                                    perspiciatis eaque quasi amet quia quo placeat! Quibusdam similique nulla suscipit ad, consequuntur
+                                    animi ea nemo illo eius non!
+                                    Recusandae voluptates cumque illo officiis, nostrum adipisci molestias modi quae vitae consectetur
+                                    animi sint praesentium temporibus, repudiandae voluptatibus. Earum dolor architecto porro. Labore
+                                    voluptatibus tempore laudantium illo! Mollitia, alias nihil?
+                                    Quae molestiae ipsa aspernatur praesentium aliquam quibusdam, iste minima voluptas odio quisquam
+                                    eveniet delectus necessitatibus, porro non facilis rem! Repellat est aliquam architecto recusandae
+                                    deserunt totam magnam quaerat, quam nisi.
+                                    Totam ab repellat impedit. Qui cupiditate reprehenderit voluptate, maxime illum distinctio repellat
+                                    nisi omnis vitae, sit obcaecati laborum? Adipisci enim exercitationem accusamus optio quos iure
+                                    aspernatur repellat inventore odio animi.
+                                    Fugit architecto nihil iste debitis in, ratione aperiam blanditiis assumenda autem distinctio neque
+                                    provident quae perferendis. Modi necessitatibus nobis amet error excepturi doloremque, voluptatem
+                                    atque, maiores magni in blanditiis fugit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card" data_category="graphic">
+                    <img class="card__img" src="https://picsum.photos/200/150?random=5" alt="projet image">
+                    <div class="card__info">
+                        <h3 class="card__title">titlre du projet</h3>
+                        <p class="card__text">graphic design</p>
+                    </div>
+                    <div class="card__overlay">
+                        <a href="#" class="card_link" data-id="modal-5">+</a>
+                    </div>
+                </div>
+                <div class="modal" id="modal-5">
+                    <button class="modal_close">x</button>
+                    <div class="container">
+                        <div class="content">
+                            <div class="grid_item">
+                                <img src="https://picsum.photos/1000/800?random=7" alt="photo de la ville">
+                                <img src="https://picsum.photos/1000/800?random=8" alt="photo de la ville">
+                            </div>
+                            <div class="grid_item">
+                                <h3 class="modal_title">titre de la modal</h3>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path
+                                        d="M96 32C96 14.33 110.3 0 128 0C145.7 0 160 14.33 160 32V64H288V32C288 14.33 302.3 0 320 0C337.7 0 352 14.33 352 32V64H400C426.5 64 448 85.49 448 112V160H0V112C0 85.49 21.49 64 48 64H96V32zM448 464C448 490.5 426.5 512 400 512H48C21.49 512 0 490.5 0 464V192H448V464z" />
+                                </svg>
+                                <i>annee 2022</i>
+                                <p class="modal_text">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni reprehenderit, cupiditate
+                                    perspiciatis eaque quasi amet quia quo placeat! Quibusdam similique nulla suscipit ad, consequuntur
+                                    animi ea nemo illo eius non!
+                                    Recusandae voluptates cumque illo officiis, nostrum adipisci molestias modi quae vitae consectetur
+                                    animi sint praesentium temporibus, repudiandae voluptatibus. Earum dolor architecto porro. Labore
+                                    voluptatibus tempore laudantium illo! Mollitia, alias nihil?
+                                    Quae molestiae ipsa aspernatur praesentium aliquam quibusdam, iste minima voluptas odio quisquam
+                                    eveniet delectus necessitatibus, porro non facilis rem! Repellat est aliquam architecto recusandae
+                                    deserunt totam magnam quaerat, quam nisi.
+                                    Totam ab repellat impedit. Qui cupiditate reprehenderit voluptate, maxime illum distinctio repellat
+                                    nisi omnis vitae, sit obcaecati laborum? Adipisci enim exercitationem accusamus optio quos iure
+                                    aspernatur repellat inventore odio animi.
+                                    Fugit architecto nihil iste debitis in, ratione aperiam blanditiis assumenda autem distinctio neque
+                                    provident quae perferendis. Modi necessitatibus nobis amet error excepturi doloremque, voluptatem
+                                    atque, maiores magni in blanditiis fugit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data_category="app">
+                    <img class="card__img" src="https://picsum.photos/200/150?random=6" alt="projet image">
+                    <div class="card__info">
+                        <h3 class="card__title">titlre du projet</h3>
+                        <p class="card__text">programming</p>
+                    </div>
+                    <div class="card__overlay">
+                        <a href="#" class="card_link" data-id="modal-6">+</a>
+                    </div>
+                </div>
+                <div class="modal" id="modal-6">
+                    <button class="modal_close">x</button>
+                    <div class="container">
+                        <div class="content">
+                            <div class="grid_item">
+                                <img src="https://picsum.photos/1000/800?random=7" alt="photo de la ville">
+                                <img src="https://picsum.photos/1000/800?random=8" alt="photo de la ville">
+                            </div>
+                            <div class="grid_item">
+                                <h3 class="modal_title">titre de la modal</h3>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path
+                                        d="M96 32C96 14.33 110.3 0 128 0C145.7 0 160 14.33 160 32V64H288V32C288 14.33 302.3 0 320 0C337.7 0 352 14.33 352 32V64H400C426.5 64 448 85.49 448 112V160H0V112C0 85.49 21.49 64 48 64H96V32zM448 464C448 490.5 426.5 512 400 512H48C21.49 512 0 490.5 0 464V192H448V464z" />
+                                </svg>
+                                <i>annee 2022</i>
+                                <p class="modal_text">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni reprehenderit, cupiditate
+                                    perspiciatis eaque quasi amet quia quo placeat! Quibusdam similique nulla suscipit ad, consequuntur
+                                    animi ea nemo illo eius non!
+                                    Recusandae voluptates cumque illo officiis, nostrum adipisci molestias modi quae vitae consectetur
+                                    animi sint praesentium temporibus, repudiandae voluptatibus. Earum dolor architecto porro. Labore
+                                    voluptatibus tempore laudantium illo! Mollitia, alias nihil?
+                                    Quae molestiae ipsa aspernatur praesentium aliquam quibusdam, iste minima voluptas odio quisquam
+                                    eveniet delectus necessitatibus, porro non facilis rem! Repellat est aliquam architecto recusandae
+                                    deserunt totam magnam quaerat, quam nisi.
+                                    Totam ab repellat impedit. Qui cupiditate reprehenderit voluptate, maxime illum distinctio repellat
+                                    nisi omnis vitae, sit obcaecati laborum? Adipisci enim exercitationem accusamus optio quos iure
+                                    aspernatur repellat inventore odio animi.
+                                    Fugit architecto nihil iste debitis in, ratione aperiam blanditiis assumenda autem distinctio neque
+                                    provident quae perferendis. Modi necessitatibus nobis amet error excepturi doloremque, voluptatem
+                                    atque, maiores magni in blanditiis fugit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--end potfolio-->
+
+<!--contact-->
+    <section id="contact" class="contact">
+        <div clas="container">
+            <div class="portofolio__header">
+                <h2 class="title">contact</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolor dolorum explicabo delectus neque accusantium,
+                </p>
+            </div>
+            <form>
+                <input type="text" placeholder="name" >
+                <input type="text" placeholder="prename">
+                <input type="email" placeholder="email">
+                <textarea placeholder="message"></textarea>
+                <input class="btn" tyep="submit" value="envoyer" >
+            </form>
+    </section>
+<!--end contact-->
+
+<!--footer-->
+    <footer>
+        <div class="footer">
+            <div class="gride">
+                <div class="gride__item">
+                    <p>touati karim</p>
+                </div>
+              <div class="gride__item">
+                <ul class="social__list__item">
+                    <li>
+                        <a href="https://www.facebook.com" target="blanc">
+                            <svg  class="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                <path
+                                    d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.github.com" target="blanc">
+                            <svg  class="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                <path
+                                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.pinterest.com/pin/" target="blanc">
+                            <svg  class="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path
+                                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com" target="blanc">
+                            <svg class="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path
+                                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+             </div>
+             <div class="gride__item">
+                    copyright &copy; 2022, tout droit reservee.
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
